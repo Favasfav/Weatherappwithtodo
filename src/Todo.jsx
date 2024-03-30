@@ -42,8 +42,9 @@ function Todo() {
   };
 
   return (
-    <div className="py-3 bg-[#3b3a30]">
-      <div className="flex justify-center items-center h-full mt-10 mb-10 w-full">
+    <div className="py-[45px] ">
+      <div className="bg-[#3b3a30] p-5">
+      <div className="flex justify-center items-center  mt-10 mb-10 w-full">
         <h1 className="text-4xl px-3  text-zinc-400 italic  font-bold">Create your Notes</h1>
       </div>
       <>
@@ -83,7 +84,7 @@ function Todo() {
               Clear All
             </button>
 
-            <div className="mt-6 overflow-hidden rounded-xl border shadow">
+            <div className="mt-6  overflow-hidden rounded-xl border shadow">
               <table className="min-w-full border-separate border-spacing-y-2 border-spacing-x-2">
                 <thead className="hidden border-b lg:table-header-group">
                   <tr className="">
@@ -117,6 +118,7 @@ function Todo() {
           </div>
         </div>
       </>
+      </div>
     </div>
   );
 }
