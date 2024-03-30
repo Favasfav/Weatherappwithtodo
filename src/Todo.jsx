@@ -43,7 +43,7 @@ function Todo() {
 
   return (
     <div className="py-[45px] ">
-      <div className="bg-[#3b3a30] p-5">
+      <div className="bg-[#3b3a30] pb-5">
       <div className="flex justify-center items-center  mt-10 mb-10 w-full">
         <h1 className="text-4xl px-3  text-zinc-400 italic  font-bold">Create your Notes</h1>
       </div>
